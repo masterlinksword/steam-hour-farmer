@@ -5,6 +5,7 @@ const readline = require("readline");
 const util = require("util");
 const Steam = require("steam-user");
 const TOTP = require("steam-totp");
+app.listen(process.env.PORT || 3000);
 
 console.log(`Documentation: https://github.com/tacheometry/steam-hour-farmer`);
 
